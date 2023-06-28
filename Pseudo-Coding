@@ -1,0 +1,10 @@
+Rock Paper Scissors Game
+---- Pseudo Coding ----
+
+
+The players is gonna play against the computer, were gonna create a function called "getComputerChoice". The function will return either Rock/Paper/Scissor randomly.
+
+
+function getComputerChoice(min,max) {
+	return Math.random() * (max - min) + min;
+}
